@@ -6,7 +6,7 @@
 * 支持作者的可以去博客也打赏，O(∩_∩)O~~~
 * 有问题的可以在博客文章处留言
 
-## 版本特效
+## 版本特性
 
 * 自动播放
 * 全自动挂机
@@ -62,7 +62,7 @@ var script = document.createElement("script");
 var head = document.getElementsByTagName('body')[0];
 
 script.type = "text/javascript";
-script.src = "//cdn.jsdelivr.net/gh/Hidove/minghuaetc@2.0/main.js?v=" + new Date().getTime();
+script.src = "//cdn.jsdelivr.net/gh/Hidove/minghuaetc/main.js?v=" + new Date().getTime();
 
 head.appendChild(script);
 ```
