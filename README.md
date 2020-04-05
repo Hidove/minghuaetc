@@ -50,10 +50,10 @@
 // ==UserScript==
 // @name         Hidove名华在线老实挂机版
 // @namespace    https://www.hidove.cn/
-// @version      2.0
+// @version      2.2
 // @description  名华在线网课全自动挂机脚本，支持验证码识别
 // @author       Hidove 余生
-// @include      *.minghuaetc.com/user/node?nodeId=*
+// @include      *.minghuaetc.com/user/node*
 // @supportURL   https://blog.hidove.cn/post/616
 // ==/UserScript==
 
@@ -62,7 +62,7 @@ var script = document.createElement("script");
 var head = document.getElementsByTagName('body')[0];
 
 script.type = "text/javascript";
-script.src = "//cdn.jsdelivr.net/gh/Hidove/minghuaetc/main.js?v=" + new Date().getTime();
+script.src = "//cdn.jsdelivr.net/gh/Hidove/minghuaetc@2.2/main.js?v=" + new Date().getTime();
 
 head.appendChild(script);
 ```
