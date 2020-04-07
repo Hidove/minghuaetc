@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hidove名华在线老实挂机版
 // @namespace    https://www.hidove.cn/
-// @version      2.2
+// @version      2.3
 // @description  名华在线网课全自动挂机脚本，支持验证码识别
 // @author       Hidove 余生
 // @include      *.minghuaetc.com/user/node*
