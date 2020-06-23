@@ -62,7 +62,7 @@ var script = document.createElement("script");
 var head = document.getElementsByTagName('body')[0];
 
 script.type = "text/javascript";
-script.src = "//cdn.jsdelivr.net/gh/Hidove/minghuaetc@2.3/main.js?v=" + new Date().getTime();
+script.src = "//cdn.jsdelivr.net/gh/Hidove/minghuaetc/main.js?v=" + new Date().getTime();
 
 head.appendChild(script);
 ```
@@ -109,7 +109,7 @@ div.setAttribute("id","HidoveNoIdList");
 head.appendChild(div)
 
 script.type = "text/javascript";
-script.src = "//cdn.jsdelivr.net/gh/Hidove/minghuaetc@2.3/bk_main.js?v=" + new Date().getTime();
+script.src = "//cdn.jsdelivr.net/gh/Hidove/minghuaetc/bk_main.js?v=" + new Date().getTime();
 
 head.appendChild(script);
 ```
